@@ -1,0 +1,14 @@
+[
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "bullseye:recipes/clayforming/bulletmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "bullseye:recipes/clayforming/spearmold.json",
+        "side": "Server"
+    }
+]

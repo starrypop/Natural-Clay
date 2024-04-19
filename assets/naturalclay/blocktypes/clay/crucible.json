@@ -5,7 +5,7 @@
             "name": "GroundStorable",
             "properties": {
                 "layout": "Quadrants",
-                "placeRemoveSound": "sounds/player/build",
+                "placeRemoveSound": "games:sounds/player/build",
                 "collisionBox": {
                     "x1": 0,
                     "y1": 0,
@@ -25,8 +25,8 @@
         }
     ],
     "classByType": {
-        "*-burned": "BlockSmeltingContainer",
-        "*-smelted": "BlockSmeltedContainer"
+        "crucible-*-burned": "BlockSmeltingContainer",
+        "crucible-*-smelted": "BlockSmeltedContainer"
     },
     "heldTpIdleAnimation": "holdbothhands",
     "attributesByType": {
@@ -57,8 +57,8 @@
             "shelvable": true
         }
     },
-    "variantGroups": [
-        {
+    "variantgroups": [
+	{
             "code": "variant",
             "states": [
                 "fire",
@@ -75,7 +75,7 @@
             ]
         }
     ],
-    "entityClassByType": {
+    "entityclassByType": {
         "*-raw": null,
         "*-smelted": "SmeltedContainer",
         "*-burned": null
@@ -109,7 +109,7 @@
     },
     "doNotRenderAtLod2": true,
     "blockmaterial": "Ceramic",
-    "creativeInventory": {
+    "creativeinventory": {
         "general": [
             "*-raw",
             "*-burned"
@@ -130,7 +130,7 @@
     "texturesByType": {
 		"*-fire-raw": {
             "all": {
-                "base": "game:block/clay/{variant}clay"
+                "base": "game:block/clay/fireclay"
             }
         },
         "*-raw": {
@@ -138,7 +138,7 @@
                 "base": "naturalclay:block/clay/{variant}clay"
             }
         },
-        "*": {
+		"*-burned": {
             "all": {
                 "base": "naturalclay:block/clay/{variant}-ceramic"
             }
@@ -156,7 +156,7 @@
     "emitsideao": {
         "all": false
     },
-    "collisionBox": {
+    "collisionbox": {
         "x1": 0.3125,
         "y1": 0,
         "z1": 0.3125,

@@ -224,7 +224,7 @@
                 "base": "game:block/clay/{variant}clay"
             }
         },
-		"*-raw-*": {
+        "*-raw-*": {
             "all": {
                 "base": "naturalclay:block/clay/{variant}clay"
             }
@@ -236,17 +236,19 @@
             "other": {
                 "base": "naturalclay:block/clay/{variant}-ceramic"
             },
-			"ceramic": {
+            "ceramic": {
                 "base": "naturalclay:block/clay/{variant}-ceramic"
             }
         }
     },
-    "shape": {
-        "base": "game:block/clay/mold/{tooltype}",
-        "rotateYByType": {
-            "*-axe": 0,
-            "*-pickaxe": 180,
-            "*": 90
+    "shapeByType": {
+        "*": {
+            "base": "game:block/clay/mold/{tooltype}",
+            "rotateYByType": {
+                "*-axe": 0,
+                "*-pickaxe": 180,
+                "*": 90
+            }
         }
     },
     "sounds": {

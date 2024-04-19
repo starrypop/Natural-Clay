@@ -1,0 +1,67 @@
+[
+    {
+        "op": "addeach",
+        "path": "/variantGroups/2/states/-",
+        "value": [
+            "spear",
+            "bullets"
+        ],
+        "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/shapeByType/@*-(spear|bullets)",
+        "value": {
+            "base": "bullseye:block/clay/mold/{tooltype}",
+            "rotateY": 90
+        },
+        "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
+        "side": "Server"
+    },
+    {
+        "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/toolmold-*-burned-bullets",
+        "value": {
+            "requiredUnits": 100,
+            "fillHeight": 1,
+            "moldrackable": true,
+            "onmoldrackTransform": {
+                "rotation": {
+                    "z": 90
+                }
+            },
+            "drop": {
+                "type": "item",
+                "code": "game:bullets-{metal}",
+                "quantity": 32
+            }
+        },
+        "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
+        "side": "Server"
+    },
+    {
+        "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
+        "op": "move",
+        "frompath": "/attributesByType/toolmold-*-burned-*",
+        "path": "/temp"
+    },
+    {
+        "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributesByType/toolmold-*-burned-*"
+    }
+]

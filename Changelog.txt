@@ -1,0 +1,8 @@
+v1.0.0
+	* Initial Release
+
+v1.0.1
+	* Added compatibility for Bullseye
+	* Fixed red axe molds being uncraftable (and having 2 options to make fire axe molds as a result)
+	* Fixed a typo making Storage Vessels unfirable
+	* Made clay variants for crucibles uncraftable, they will be fixed in a future update.

@@ -194,7 +194,7 @@
             "smeltingType": "fire",
             "smeltedStack": {
                 "type": "block",
-                "code": "naturalclay::storagevessel-{variant}-burned",
+                "code": "naturalclay:storagevessel-{variant}-burned",
                 "attributes": {
                     "type": "normal"
                 }
