@@ -16,8 +16,6 @@
     "naturalclay:block-toolmold-*-burned-pickaxe": "Pickaxe mold",
     "naturalclay:block-toolmold-*-raw-prospectingpick": "Raw prospecting pick mold",
     "naturalclay:block-toolmold-*-burned-prospectingpick": "Prospecting pick mold",
-    "naturalclay:block-toolmold-*-raw-bullets": "Raw sling bullets mold",
-    "naturalclay:block-toolmold-*-burned-bullets": "Sling bullets mold",
 	"naturalclay:block-toolmold-*-raw-lamellae": "Raw lamellae mold",
     "naturalclay:block-toolmold-*-burned-lamellae": "Lamellae mold",
 	"naturalclay:block-toolmold-*-raw-helvehammer": "Raw helve hammer mold",
@@ -61,6 +59,13 @@
 	"naturalclay:block-rawclay-brown-none": "Brown clay in soil",
     "naturalclay:block-rawclay-red-none": "Red clay in soil",
     "naturalclay:block-rawclay-brown-verysparse": "Brown clay in soil (Sparse grass)",
-    "naturalclay:block-rawclay-red-verysparse": "Red clay in soil (Sparse grass)"
+    "naturalclay:block-rawclay-red-verysparse": "Red clay in soil (Sparse grass)",
+	
+	//Compatibility
+	
+	"naturalclay:block-toolmold-*-raw-bullets": "Raw bullet mold",
+    "naturalclay:block-toolmold-*-burned-bullets": "Bullet mold",
+	"naturalclay:block-toolmold-*-raw-spear": "Raw spear mold",
+    "naturalclay:block-toolmold-*-burned-spear": "Spear mold"
 	
 }
