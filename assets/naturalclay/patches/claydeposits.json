@@ -1,0 +1,165 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "file": "game:worldgen/deposits/soil/clay.json",
+        "value": {
+            "code": "brownclay",
+            "triesPerChunk": 0.0066,
+            "withBlockCallback": true,
+            "generator": "disc-followsurfacebelow",
+            "attributes": {
+                "inblock": {
+                    "code": "game:soil-*",
+                    "name": "fertcover",
+                    "allowedVariants": [
+                        "low-none",
+                        "medium-none",
+                        "low-verysparse",
+                        "medium-verysparse",
+                        "low-sparse",
+                        "medium-sparse",
+                        "low-normal",
+                        "medium-normal"
+                    ]
+                },
+                "placeblock": {
+                    "code": "naturalclay:rawclay-brown-*",
+                    "name": "clayfertcover",
+                    "allowedVariantsByInBlock": {
+                        "soil-low-none": [
+                            "none"
+                        ],
+                        "soil-medium-none": [
+                            "none"
+                        ],
+                        "soil-low-verysparse": [
+                            "verysparse"
+                        ],
+                        "soil-medium-verysparse": [
+                            "verysparse"
+                        ],
+                        "soil-low-sparse": [
+                            "verysparse"
+                        ],
+                        "soil-medium-sparse": [
+                            "verysparse"
+                        ],
+                        "soil-low-normal": [
+                            "verysparse"
+                        ],
+                        "soil-medium-normal": [
+                            "verysparse"
+                        ]
+                    }
+                },
+                "withLastLayerBlockCallback": true,
+                "radius": {
+                    "dist": "uniform",
+                    "avg": 15,
+                    "var": 6
+                },
+                "depth": {
+                    "dist": "uniform",
+                    "avg": 0,
+                    "var": 0
+                },
+                "thickness": {
+                    "avg": 3.6,
+                    "var": 1
+                },
+                "maxYRoughness": 1
+            },
+            "climate": {
+                "minRain": 0.27,
+                "minTemp": -10
+            }
+        },
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "file": "game:worldgen/deposits/soil/clay.json",
+        "value": {
+            "code": "redclay",
+            "triesPerChunk": 0.0066,
+            "withBlockCallback": true,
+            "generator": "disc-followsurfacebelow",
+            "attributes": {
+                "inblock": {
+                    "code": "game:soil-*",
+                    "name": "fertcover",
+                    "allowedVariants": [
+                        "low-none",
+                        "medium-none",
+                        "low-verysparse",
+                        "medium-verysparse",
+                        "low-sparse",
+                        "medium-sparse",
+                        "low-normal",
+                        "medium-normal"
+                    ]
+                },
+                "placeblock": {
+                    "code": "naturalclay:rawclay-red-*",
+                    "name": "clayfertcover",
+                    "allowedVariantsByInBlock": {
+                        "soil-low-none": [
+                            "none"
+                        ],
+                        "soil-medium-none": [
+                            "none"
+                        ],
+                        "soil-low-verysparse": [
+                            "verysparse"
+                        ],
+                        "soil-medium-verysparse": [
+                            "verysparse"
+                        ],
+                        "soil-low-sparse": [
+                            "verysparse"
+                        ],
+                        "soil-medium-sparse": [
+                            "verysparse"
+                        ],
+                        "soil-low-normal": [
+                            "verysparse"
+                        ],
+                        "soil-medium-normal": [
+                            "verysparse"
+                        ]
+                    }
+                },
+                "withLastLayerBlockCallback": true,
+                "radius": {
+                    "dist": "uniform",
+                    "avg": 15,
+                    "var": 6
+                },
+                "depth": {
+                    "dist": "uniform",
+                    "avg": 0,
+                    "var": 0
+                },
+                "thickness": {
+                    "avg": 3.6,
+                    "var": 1
+                },
+                "maxYRoughness": 1
+            },
+            "climate": {
+                "minRain": 0.27,
+                "minTemp": -10
+            }
+        },
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/0/triesPerChunk",
+        "file": "game:worldgen/deposits/soil/clay.json",
+        "value": 0.0066,
+        "side": "Server"
+    }
+]

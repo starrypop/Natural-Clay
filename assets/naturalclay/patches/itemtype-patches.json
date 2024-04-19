@@ -1,0 +1,101 @@
+[
+    {
+        "op": "remove",
+        "path": "/attributes/handbook/excludeByType",
+        "file": "game:blocktypes/clay/brick.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/attributes/handbook/excludeByType",
+        "file": "game:blocktypes/clay/brickslab.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/attributes/handbook/excludeByType",
+        "file": "game:blocktypes/clay/brickstairs.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/attributes/handbook/excludeByType",
+        "file": "game:blocktypes/clay/chimney.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/attributes/handbook/excludeByType",
+        "file": "game:blocktypes/clay/hardenedclay.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/skipVariants",
+        "file": "game:itemtypes/resource/shingle.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "@*-raw-(brown|red)": {
+                "material": {
+                    "base": "naturalclay:block/clay/{type}clay"
+                }
+            }
+        },
+        "file": "game:itemtypes/resource/shingle.json",
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/shingle.json",
+        "op": "move",
+        "frompath": "/texturesByType/*-raw-*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/resource/shingle.json",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/texturesByType/*-raw-*"
+    },
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": [
+            "brown",
+            "red"
+        ],
+        "file": "game:itemtypes/resource/clay.json",
+        "side": "Server"
+    },
+    {
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": [
+            "brown",
+            "red"
+        ],
+        "file": "game:itemtypes/resource/clayworkitem.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/clayworkitem-brown",
+        "value": {
+            "base": "naturalclay:block/clay/brownclay"
+        },
+        "file": "game:blocktypes/clay/clayform.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/clayworkitem-red",
+        "value": {
+            "base": "naturalclay:block/clay/redclay"
+        },
+        "file": "game:blocktypes/clay/clayform.json",
+        "side": "Server"
+    }
+]

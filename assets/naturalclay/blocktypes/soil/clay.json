@@ -1,0 +1,120 @@
+{
+    "code": "rawclay",
+    "__comment": "BlockSoilDeposit contains 1 method for setting the correct map color via GetBlockColor(), 1 method for generating soil below a deposit where needed and 1 method to make it grow grass",
+    "class": "BlockSoilDeposit",
+    "variantGroups": [
+        {
+            "code": "type",
+            "states": [
+                "red",
+                "brown"
+            ]
+        },
+        {
+            "code": "grasscoverage",
+            "states": [
+                "none",
+                "verysparse"
+            ]
+        }
+    ],
+    "shape": {
+        "base": "game:block/basic/cube"
+    },
+    "drawtype": "TopSoil",
+    "renderpass": "TopSoil",
+    "blockmaterial": "Soil",
+    "attributes": {
+        "mapColorCode": "land",
+        "ignoreTintInventory": true,
+        "placeBelowBlockCode": "soil-low-none",
+        "growthBlockLayer": "l1soilwithgrass",
+        "growthLightLevel": 7,
+        "preventsDecay": true,
+        "tallGrassGrowthChance": 0.6,
+        "spreadsGrassByType": {
+            "*-verysparse": true,
+            "*-none": false
+        }
+    },
+    "creativeInventory": {
+        "general": [
+            "*"
+        ],
+        "terrain": [
+            "*"
+        ]
+    },
+    "replaceable": 700,
+    "resistance": 4,
+    "textures": {
+        "all": {
+            "base": "naturalclay:block/soil/{type}clay"
+        },
+        "snowed": {
+            "base": "game:block/plant/grasscoverage/snow/normal"
+        },
+        "specialSecondTexture": {
+            "base": "game:block/plant/grasscoverage/{grasscoverage}"
+        }
+    },
+    "texturesInventory": {
+        "down": {
+            "base": "naturalclay:block/soil/{type}clay"
+        },
+        "horizontals": {
+            "base": "naturalclay:block/soil/{type}clay"
+        },
+        "up": {
+            "base": "naturalclay:block/soil/{type}clay"
+        }
+    },
+    "climateColorMapByType": {
+        "*-none": null,
+        "*": "climatePlantTint"
+    },
+    "seasonColorMapByType": {
+        "*-none": null,
+        "*": "seasonalGrass"
+    },
+    "frostable": true,
+    "sounds": {
+        "place": "game:block/dirt",
+        "break": "game:block/dirt",
+        "hit": "game:block/dirt"
+    },
+    "fertility": 5,
+    "drops": [
+        {
+            "type": "item",
+            "code": "game:clay-{type}",
+            "quantity": {
+                "avg": 4.5,
+                "var": 1
+            }
+        },
+        {
+            "type": "block",
+            "code": "game:ethoslab",
+            "quantity": {
+                "avg": 0.000001
+            }
+        }
+    ],
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldRightReadyAnimation": "heldblockready",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.23,
+            "y": -0.91,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": -2,
+            "y": 25,
+            "z": -78
+        },
+        "scale": 0.4
+    }
+}

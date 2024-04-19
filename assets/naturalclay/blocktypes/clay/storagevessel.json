@@ -1,0 +1,218 @@
+{
+    "code": "storagevessel",
+    "classByType": {
+        "*-raw": "Block",
+        "*": "BlockGenericTypedContainer"
+    },
+    "entityClassByType": {
+        "*-raw": null,
+        "*": "GenericTypedContainer"
+    },
+    "behaviorsByType": {
+        "*-raw": [
+            {
+                "name": "GroundStorable",
+                "properties": {
+                    "layout": "SingleCenter"
+                }
+            },
+            {
+                "name": "Unplaceable",
+                "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility"
+            }
+        ],
+        "*": [
+            {
+                "name": "Lockable"
+            },
+            {
+                "name": "Container"
+            },
+            {
+                "name": "UnstableFalling"
+            }
+        ]
+    },
+    "entityBehaviorsByType": {
+        "*-raw": [],
+        "*": [
+            {
+                "name": "Animatable"
+            }
+        ]
+    },
+    "attributes": {
+        "partialAttachable": true,
+        "inventoryClassName": "chest",
+        "defaultType": "normal",
+        "types": [
+            "normal"
+        ],
+        "drop": {
+            "normal": true
+        },
+        "quantitySlots": {
+            "normal": 12
+        },
+        "dialogTitleLangCode": {
+            "normal": "vesselcontents"
+        },
+        "storageType": {
+            "normal": 32
+        },
+        "retrieveOnly": {
+            "normal": false
+        },
+        "spoilSpeedMulByFoodCat": {
+            "normal": {
+                "vegetable": 0.75,
+                "grain": 0.5
+            }
+        },
+        "shape": {
+            "normal": "game:block/clay/storagevessel"
+        },
+        "variantByGroup": "variant",
+        "variantByGroupInventory": "variant",
+        "openSound": "game:sounds/block/vesselopen",
+        "closeSound": "game:sounds/block/vesselclose"
+    },
+    "variantGroups": [
+        {
+            "code": "variant",
+            "states": [
+                "fire",
+                "red",
+                "brown"
+            ]
+        },
+        {
+            "code": "type",
+            "states": [
+                "raw",
+                "burned"
+            ]
+        }
+    ],
+    "shape": {
+        "base": "game:block/clay/lootvessel"
+    },
+    "texturesByType": {
+		"*-fire-raw": {
+            "all": {
+                "base": "game:block/clay/fireclay"
+            }
+        },
+        "*-raw": {
+            "all": {
+                "base": "naturalclay:block/clay/{variant}clay"
+            }
+        },
+        "*": {
+            "normal-ceramic": {
+                "base": "naturalclay:block/clay/{variant}-ceramic"
+            },
+            "normal-top": {
+                "base": "naturalclay:block/clay/vessel/top/{variant}"
+            },
+            "normal-sides": {
+                "base": "naturalclay:block/clay/vessel/sides/{variant}"
+            },
+            "normal-inside": {
+                "base": "naturalclay:block/clay/vessel/inside/{variant}"
+            }
+        }
+    },
+    "blockmaterial": "Ceramic",
+    "creativeInventory": {},
+    "creativeinventoryStacksByType": {
+        "*-raw": [
+            {
+                "tabs": [
+                    "general",
+                    "decorative"
+                ],
+                "stacks": [
+                    {
+                        "type": "block",
+                        "code": "naturalclay:storagevessel-{variant}-raw"
+                    }
+                ]
+            }
+        ],
+        "*": [
+            {
+                "tabs": [
+                    "general",
+                    "decorative"
+                ],
+                "stacks": [
+                    {
+                        "type": "block",
+                        "code": "naturalclay:storagevessel-{variant}-burned",
+                        "attributes": {
+                            "type": "normal"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "replaceable": 1000,
+    "resistance": 0.8,
+    "maxStackSize": 4,
+    "sideAo": {
+        "all": false
+    },
+    "lightAbsorption": 0,
+    "sounds": {
+        "walk": "game:walk/stone",
+        "break": "game:block/ceramicplace",
+        "hit": "game:block/ceramichit",
+        "place": "game:block/ceramicplace"
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "collisionSelectionBox": {
+        "x1": 0.125,
+        "y1": 0,
+        "z1": 0.125,
+        "x2": 0.875,
+        "y2": 1,
+        "z2": 0.875
+    },
+    "heldTpIdleAnimation": "holdunderarm",
+    "combustiblePropsByType": {
+        "*-raw": {
+            "meltingPoint": 600,
+            "meltingDuration": 45,
+            "smeltedRatio": 1,
+            "smeltingType": "fire",
+            "smeltedStack": {
+                "type": "block",
+                "code": "naturalclay::storagevessel-{variant}-burned",
+                "attributes": {
+                    "type": "normal"
+                }
+            },
+            "requiresContainer": false
+        }
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -1,
+            "y": -0.5,
+            "z": -0.5
+        },
+        "rotation": {
+            "x": 25,
+            "y": -20,
+            "z": -99
+        },
+        "scale": 0.56
+    }
+}

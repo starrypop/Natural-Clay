@@ -1,0 +1,66 @@
+{
+	"game:item-shingle-raw-brown": "Raw brown clay shingle",
+	"game:item-shingle-raw-red": "Raw red clay shingle",
+	"naturalclay:item-rawbrick-brown": "Raw brown clay brick",
+    "naturalclay:item-rawbrick-red": "Raw red clay brick",
+	"game:item-clay-brown": "Brown clay",
+    "game:item-clay-red": "Red clay",
+	
+	"naturalclay:block-bowl-*-raw": "Raw bowl",
+    "naturalclay:block-bowl-*-fired": "Bowl",
+	"naturalclay:block-bowl-meal-*": "Bowl with Meal",
+	
+	"naturalclay:block-toolmold-*-raw-axe": "Raw axe mold",
+    "naturalclay:block-toolmold-*-burned-axe": "Axe mold",
+    "naturalclay:block-toolmold-*-raw-pickaxe": "Raw pickaxe mold",
+    "naturalclay:block-toolmold-*-burned-pickaxe": "Pickaxe mold",
+    "naturalclay:block-toolmold-*-raw-prospectingpick": "Raw prospecting pick mold",
+    "naturalclay:block-toolmold-*-burned-prospectingpick": "Prospecting pick mold",
+    "naturalclay:block-toolmold-*-raw-bullets": "Raw sling bullets mold",
+    "naturalclay:block-toolmold-*-burned-bullets": "Sling bullets mold",
+	"naturalclay:block-toolmold-*-raw-lamellae": "Raw lamellae mold",
+    "naturalclay:block-toolmold-*-burned-lamellae": "Lamellae mold",
+	"naturalclay:block-toolmold-*-raw-helvehammer": "Raw helve hammer mold",
+    "naturalclay:block-toolmold-*-burned-helvehammer": "Helve hammer mold",
+	"naturalclay:block-toolmold-*-raw-shovel": "Raw shovel mold",
+    "naturalclay:block-toolmold-*-burned-shovel": "Shovel mold",
+    "naturalclay:block-toolmold-*-raw-blade-falx": "Raw falx blade mold",
+    "naturalclay:block-toolmold-*-burned-blade-falx": "Falx blade mold",
+    "naturalclay:block-toolmold-*-raw-hammer": "Raw hammer mold",
+    "naturalclay:block-toolmold-*-burned-hammer": "Hammer mold",
+    "naturalclay:block-toolmold-*-raw-anvil": "Raw anvil mold",
+    "naturalclay:block-toolmold-*-burned-anvil": "Anvil mold",
+    "naturalclay:block-toolmold-*-raw-hoe": "Raw hoe mold",
+    "naturalclay:block-toolmold-*-burned-hoe": "Hoe mold",
+	"naturalclay:block-ingotmold-*-raw": "Raw ingot mold",
+    "naturalclay:block-ingotmold-*-burned": "Ingot mold",
+	
+	"naturalclay:block-clayplanter-*-raw": "Raw planter",
+	"naturalclay:block-clayplanter-*-burnt": "Planter",
+	"naturalclay:block-flowerpot-*-raw": "Raw flowerpot",
+	"naturalclay:block-flowerpot-*-burnt": "Flowerpot",
+	"naturalclay:block-crock-*-raw-*": "Raw Crock",
+	"naturalclay:block-crock-*-burned-east": "Fired Crock",
+	"naturalclay:block-storagevessel-*-raw": "Raw storage vessel",
+	"naturalclay:block-normal-storagevessel-*-burned": "Storage vessel",
+	
+	"naturalclay:block-claypot-*-raw": "Raw cooking pot",
+    "naturalclay:block-claypot-*-burned": "Cooking pot",
+	
+	"naturalclay:block-jug-*-raw": "Raw Jug",
+	"naturalclay:block-jug-*-fired": "Jug",
+	
+	"naturalclay:block-oillamp-*-up": "Oil lamp",
+	
+	"naturalclay:block-crucible-*-raw": "Raw crucible",
+	"naturalclay:block-crucible-*-burned": "Crucible",
+	
+	"naturalclay:block-wateringcan-*-raw": "Raw watering can",
+    "naturalclay:block-wateringcan-*-burned": "Watering can",
+	
+	"naturalclay:block-rawclay-brown-none": "Brown clay in soil",
+    "naturalclay:block-rawclay-red-none": "Red clay in soil",
+    "naturalclay:block-rawclay-brown-verysparse": "Brown clay in soil (Sparse grass)",
+    "naturalclay:block-rawclay-red-verysparse": "Red clay in soil (Sparse grass)"
+	
+}

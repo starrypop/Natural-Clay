@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "DD	DD",
+	ingredients: {
+		"D": { type: "item", code: "game:clay-*", name: "type", allowedVariants: ["red", "brown"] },
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "naturalclay:rawbrick-{type}", quantity: 1  }
+}
