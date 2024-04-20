@@ -1,0 +1,20 @@
+[
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "primitivesurvival:recipes/clayforming/hookmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "primitivesurvival:recipes/clayforming/luremold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "primitivesurvival:recipes/clayforming/spikesplatemold.json",
+        "side": "Server"
+    }
+]

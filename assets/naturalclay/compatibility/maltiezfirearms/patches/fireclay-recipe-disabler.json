@@ -1,0 +1,20 @@
+[
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "maltiezfirearms:recipes/clayforming/barrelmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "maltiezfirearms:recipes/clayforming/bullets.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "maltiezfirearms:recipes/clayforming/slugs.json",
+        "side": "Server"
+    }
+]

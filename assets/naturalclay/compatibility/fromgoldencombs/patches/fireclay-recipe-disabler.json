@@ -1,0 +1,14 @@
+[
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedvariants/0",
+        "file": "fromgoldencombs:recipes/clayforming/hivetop.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedvariants/0",
+        "file": "fromgoldencombs:recipes/clayforming/rawclaypothive.json",
+        "side": "Server"
+    }
+]

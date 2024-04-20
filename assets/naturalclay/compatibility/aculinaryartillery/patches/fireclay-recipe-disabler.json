@@ -1,0 +1,44 @@
+[
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "aculinaryartillery:recipes/clayforming/bighookmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "aculinaryartillery:recipes/clayforming/bottle.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "aculinaryartillery:recipes/clayforming/bottle4.json",
+        "side": "Server"
+    },
+	{
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "aculinaryartillery:recipes/clayforming/cauldronminimold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "aculinaryartillery:recipes/clayforming/cauldronmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "aculinaryartillery:recipes/clayforming/saucepan.json",
+        "side": "Server"
+    },
+	{
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "aculinaryartillery:recipes/clayforming/spile.json",
+        "side": "Server"
+    }
+]

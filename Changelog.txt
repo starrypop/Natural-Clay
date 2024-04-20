@@ -8,4 +8,11 @@ v1.0.1
 	* Made clay variants for crucibles uncraftable, they will be fixed in a future update.
 	
 v1.0.2
-	* Added compatibility for A Culinary Artillery
+	* Added basic compatibility for several mods (no variants yet)
+		* A Culinary Artillery
+		* Ancient Tools
+		* From Golden Combs
+		* Firearms
+		* Primative Survival
+		* Crucible Capacity
+	* Refactored recipes, removing 2/3rds of them
