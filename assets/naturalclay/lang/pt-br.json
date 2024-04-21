@@ -1,0 +1,71 @@
+{
+	"game:item-shingle-raw-brown": "Telha de argila marrom crua",
+	"game:item-shingle-raw-red": "Telha de argila vermelha crua",
+	"naturalclay:item-rawbrick-brown": "Tijolo cru de argila marrom",
+    "naturalclay:item-rawbrick-red": "Tijolo cru de argila marrom",
+	"game:item-clay-brown": "Argila marrom",
+    "game:item-clay-red": "Argila vermelha",
+	
+	"naturalclay:block-bowl-*-raw": "Tijela crua",
+    "naturalclay:block-bowl-*-fired": "Tijela",
+	"naturalclay:block-bowl-meal-*": "Tigela com refeição",
+	
+	"naturalclay:block-toolmold-*-raw-axe": "Molde cru de machado",
+    "naturalclay:block-toolmold-*-burned-axe": "Molde de machado",
+    "naturalclay:block-toolmold-*-raw-pickaxe": "Molde cru de picareta",
+    "naturalclay:block-toolmold-*-burned-pickaxe": "Molde de picareta",
+    "naturalclay:block-toolmold-*-raw-prospectingpick": "Molde cru de picareta de prospecção",
+    "naturalclay:block-toolmold-*-burned-prospectingpick": "Molde de picareta de prospecção",
+	"naturalclay:block-toolmold-*-raw-lamellae": "Molde cru de lamelas",
+    "naturalclay:block-toolmold-*-burned-lamellae": "Molde de lamelas",
+	"naturalclay:block-toolmold-*-raw-helvehammer": "Molde cru de martinete",
+    "naturalclay:block-toolmold-*-burned-helvehammer": "Molde de martinete",
+	"naturalclay:block-toolmold-*-raw-shovel": "Molde cru de pá",
+    "naturalclay:block-toolmold-*-burned-shovel": "Molde de pá",
+    "naturalclay:block-toolmold-*-raw-blade-falx": "Molde cru de lâmina de falx",
+    "naturalclay:block-toolmold-*-burned-blade-falx": "Molde de lâmina de falx",
+    "naturalclay:block-toolmold-*-raw-hammer": "Molde cru de martelo",
+    "naturalclay:block-toolmold-*-burned-hammer": "Molde de martelo",
+    "naturalclay:block-toolmold-*-raw-anvil": "Molde cru de bigorna",
+    "naturalclay:block-toolmold-*-burned-anvil": "Molde de bigorna",
+    "naturalclay:block-toolmold-*-raw-hoe": "Molde cru de enxada",
+    "naturalclay:block-toolmold-*-burned-hoe": "Molde de enxada",
+	"naturalclay:block-ingotmold-*-raw": "Molde cru de lingote",
+    "naturalclay:block-ingotmold-*-burned": "Molde de lingote",
+	
+	"naturalclay:block-clayplanter-*-raw": "Jardineira crua",
+	"naturalclay:block-clayplanter-*-burnt": "Jardineira",
+	"naturalclay:block-flowerpot-*-raw": "Vaso de flores cru",
+	"naturalclay:block-flowerpot-*-burnt": "Vaso de flores",
+	"naturalclay:block-crock-*-raw-*": "Pote cru",
+	"naturalclay:block-crock-*-burned-east": "Pote",
+	"naturalclay:block-storagevessel-*-raw": "Recipiente de armazenamento cru",
+	"naturalclay:block-normal-storagevessel-*-burned": "Recipiente de armazenamento",
+	
+	"naturalclay:block-claypot-*-raw": "Cassarola crua",
+    "naturalclay:block-claypot-*-burned": "Caçarola",
+	
+	"naturalclay:block-jug-*-raw": "Jarro cru",
+	"naturalclay:block-jug-*-fired": "Jarro",
+	
+	"naturalclay:block-oillamp-*-up": "Lâmpada a óleo",
+	
+	"naturalclay:block-crucible-*-raw": "Cadinho cru",
+	"naturalclay:block-crucible-*-burned": "Cadinho",
+	
+	"naturalclay:block-wateringcan-*-raw": "Regador cru",
+    "naturalclay:block-wateringcan-*-burned": "Regador",
+	
+	"naturalclay:block-rawclay-brown-none": "Argila marrom no solo",
+    "naturalclay:block-rawclay-red-none": "Argila vermelha no solo",
+    "naturalclay:block-rawclay-brown-verysparse": "Argila marrom no solo (Grama esparsa)",
+    "naturalclay:block-rawclay-red-verysparse": "Argila vermelha no solo (Grama esparsa)",
+	
+	//Compatibility
+	
+	"naturalclay:block-toolmold-*-raw-bullets": "Molde cru de balas",
+    "naturalclay:block-toolmold-*-burned-bullets": "Molde de balas",
+	"naturalclay:block-toolmold-*-raw-spear": "Molde cru de lanças",
+    "naturalclay:block-toolmold-*-burned-spear": "Molde de lanças"
+	
+}
