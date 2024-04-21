@@ -19,3 +19,9 @@ v1.0.2
 v1.0.3
 	* Added Pt-br translation, thanks AzuliBluespots!
 	* Fixed compatibility patches to actually make things compatible
+	
+v1.0.4
+	* Fixed some missing vanilla recipes
+	* A Culinary Artillery variants
+	* Moved compatibility folders around
+	* Fixed the top of irrigation vessels being the wrong color

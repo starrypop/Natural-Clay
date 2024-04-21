@@ -1,3 +1,4 @@
+[
 {
   "ingredient": {
     "type": "item",
@@ -43,3 +44,4 @@
   "output": { "type": "block", "code": "primitivesurvival:pslargemold-raw-metalfishinghook" },
     "dependsOn": [{ "modid": "primitivesurvival" }]
 }
+]

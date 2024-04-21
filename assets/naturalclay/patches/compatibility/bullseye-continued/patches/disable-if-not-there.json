@@ -1,0 +1,28 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/enabled",
+        "value": false,
+        "file": "naturalclay:recipes/clayforming/compat/bullseye/bulletmold.json",
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bullseye-continued",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/enabled",
+        "value": false,
+        "file": "naturalclay:recipes/clayforming/compat/bullseye/spearmold.json",
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bullseye-continued",
+                "invert": true
+            }
+        ]
+    }
+]

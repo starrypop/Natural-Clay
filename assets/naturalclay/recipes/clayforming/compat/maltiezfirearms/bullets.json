@@ -1,3 +1,4 @@
+[
 {
 	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": ["red", "fire", "brown"] },
 	"pattern": [[
@@ -49,3 +50,4 @@
 	"output": { "type": "block", "code": "maltiezfirearms:ammomold-bullet-raw" },
     "dependsOn": [{ "modid": "maltiezfirearms" }]
 }
+]

@@ -1,3 +1,4 @@
+[
 {
   "ingredient": {
     "type": "item",
@@ -156,3 +157,4 @@
   "output": { "type": "block", "code": "primitivesurvival:pslargemold-raw-spikeplate" },
     "dependsOn": [{ "modid": "primitivesurvival" }]
 }
+]

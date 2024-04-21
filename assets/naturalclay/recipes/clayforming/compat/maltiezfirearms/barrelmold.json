@@ -1,4 +1,4 @@
-{
+[{
 	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": ["red", "fire", "brown"] },
 	"pattern": [[
 		"##########",
@@ -197,3 +197,4 @@
 	"output": { "type": "block", "code": "maltiezfirearms:barrelmold-raw"  },
     "dependsOn": [{ "modid": "maltiezfirearms" }]
 }
+]

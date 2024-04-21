@@ -89,5 +89,85 @@
                 "invert": true
             }
         ]
+    },
+
+
+{
+        "op": "addmerge",
+        "path": "/enabled",
+        "value": false,
+        "file": "naturalclay:blocktypes/clay/compatibility/aculinaryartillery/bighookmold.json",
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "aculinaryartillery",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/enabled",
+        "value": false,
+        "file": "naturalclay:blocktypes/clay/compatibility/aculinaryartillery/bottle.json",
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "aculinaryartillery",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/enabled",
+        "value": false,
+        "file": "naturalclay:blocktypes/clay/compatibility/aculinaryartillery/cauldronminimold.json",
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "aculinaryartillery",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/enabled",
+        "value": false,
+        "file": "naturalclay:blocktypes/clay/compatibility/aculinaryartillery/cauldronmoldblock.json",
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "aculinaryartillery",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/enabled",
+        "value": false,
+        "file": "naturalclay:blocktypes/clay/compatibility/aculinaryartillery/saucepan.json",
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "aculinaryartillery",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/enabled",
+        "value": false,
+        "file": "naturalclay:blocktypes/clay/compatibility/aculinaryartillery/spilemold.json",
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "aculinaryartillery",
+                "invert": true
+            }
+        ]
     }
 ]

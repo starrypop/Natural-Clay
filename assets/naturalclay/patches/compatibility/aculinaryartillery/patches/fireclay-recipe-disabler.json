@@ -3,42 +3,77 @@
         "op": "remove",
         "path": "/ingredient/allowedVariants/1",
         "file": "aculinaryartillery:recipes/clayforming/bighookmold.json",
-        "side": "Server"
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ]
     },
     {
         "op": "remove",
         "path": "/ingredient/allowedVariants/1",
         "file": "aculinaryartillery:recipes/clayforming/bottle.json",
-        "side": "Server"
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ]
     },
     {
         "op": "remove",
         "path": "/ingredient/allowedVariants/1",
         "file": "aculinaryartillery:recipes/clayforming/bottle4.json",
-        "side": "Server"
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ]
     },
 	{
         "op": "remove",
         "path": "/ingredient/allowedVariants/1",
         "file": "aculinaryartillery:recipes/clayforming/cauldronminimold.json",
-        "side": "Server"
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ]
     },
     {
         "op": "remove",
         "path": "/ingredient/allowedVariants/1",
         "file": "aculinaryartillery:recipes/clayforming/cauldronmold.json",
-        "side": "Server"
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ]
     },
     {
         "op": "remove",
         "path": "/ingredient/allowedVariants/1",
         "file": "aculinaryartillery:recipes/clayforming/saucepan.json",
-        "side": "Server"
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ]
     },
 	{
         "op": "remove",
         "path": "/ingredient/allowedVariants/1",
         "file": "aculinaryartillery:recipes/clayforming/spile.json",
-        "side": "Server"
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ]
     }
 ]
