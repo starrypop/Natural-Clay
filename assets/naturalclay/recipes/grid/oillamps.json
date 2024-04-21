@@ -1,0 +1,13 @@
+[
+	{
+	"ingredientPattern": "BF",
+	"ingredients": {
+                "B": { "type": "block", "code": "naturalclay:bowl-*-fired", "name": "color" },
+                "F": { "type": "item", "code": "game:fat" }
+        },
+        "width": 2,
+        "height": 1,
+	"shapeless": true,
+        "output": { "type": "block", "code": "naturalclay:oillamp-{color}-up"  }
+	}
+]
