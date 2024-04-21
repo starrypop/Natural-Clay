@@ -39,6 +39,6 @@
 		]	
 	],
 	name: "Saucepan",
-	output: { type: "block", code: "aculinaryartillery:saucepan-raw" },
+	output: { type: "block", code: "naturalclay:saucepan-{color}-raw" },
     "dependsOn": [{ "modid": "aculinaryartillery" }]
 }

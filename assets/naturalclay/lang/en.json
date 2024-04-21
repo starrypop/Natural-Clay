@@ -66,6 +66,22 @@
 	"naturalclay:block-toolmold-*-raw-bullets": "Raw bullet mold",
     "naturalclay:block-toolmold-*-burned-bullets": "Bullet mold",
 	"naturalclay:block-toolmold-*-raw-spear": "Raw spear mold",
-    "naturalclay:block-toolmold-*-burned-spear": "Spear mold"
+    "naturalclay:block-toolmold-*-burned-spear": "Spear mold",
 	
+	 "naturalclay:block-saucepan-*-raw" : "Unfired saucepan",
+    "naturalclay:blockdesc-saucepan-*-raw": "Could probably use some heat.",
+    "naturalclay:block-saucepan-*-burned" : "Saucepan",
+    "naturalclay:blockdesc-saucepan-*-burned": "This will keep your liquids safe... for a time.",
+	"naturalclay:block-cauldronmold-*-raw": "Raw cauldron mold",
+    "naturalclay:block-cauldronmold-*-burned": "Cauldron mold",
+	"naturalclay:block-cauldronminimold-*-raw": "Raw small cauldron mold",
+  "naturalclay:block-cauldronminimold-*-burned": "Small cauldron mold",
+    "naturalclay:block-spilemold-*-raw": "Raw spile mold",
+  "naturalclay:block-spilemold-*-burned": "Spile mold",
+  "naturalclay:block-bighookmold-*-raw": "Raw large hook mold",
+  "naturalclay:block-bighookmold-*-burned": "Large hook mold",
+  "naturalclay:block-bottle-*-raw" : "Unfired bottle",
+    "naturalclay:block-bottle-*-burned" : "Bottle",
+	"naturalclay:blockdesc-bottle-*-raw": "Could probably use some heat.",
+  "naturalclay:blockdesc-bottle-*-burned": "An empty bottle becomes desperate for purpose."
 }

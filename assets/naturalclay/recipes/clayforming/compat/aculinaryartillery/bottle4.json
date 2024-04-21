@@ -61,6 +61,6 @@
 		"________",
 	]],
 	name: "bottle",
-	output: { type: "block", code: "aculinaryartillery:bottle-clay-raw", quantity: 4 },
+	output: { type: "block", code: "naturalclay:bottle-{color}-raw", quantity: 4 },
     "dependsOn": [{ "modid": "aculinaryartillery" }]
 }

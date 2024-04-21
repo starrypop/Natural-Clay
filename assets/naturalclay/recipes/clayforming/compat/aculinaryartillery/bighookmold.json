@@ -46,7 +46,7 @@
     "name": "Big Hook Mold",
     "output": {
         "type": "block",
-        "code": "aculinaryartillery:bighookmold-raw",
+        "code": "naturalclay:bighookmold-{color}-raw",
     "dependsOn": [{ "modid": "aculinaryartillery" }]
     }
 }

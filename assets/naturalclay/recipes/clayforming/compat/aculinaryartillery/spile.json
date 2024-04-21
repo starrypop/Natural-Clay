@@ -73,6 +73,6 @@
 		"################",
 	],],
 	name: "Spile Mold",
-	output: { type: "block", code: "aculinaryartillery:spilemold-raw"  },
+	output: { type: "block", code: "naturalclay:spilemold-{color}-raw"  },
     "dependsOn": [{ "modid": "aculinaryartillery" }]
 }

@@ -66,6 +66,24 @@
 	"naturalclay:block-toolmold-*-raw-bullets": "Molde cru de balas",
     "naturalclay:block-toolmold-*-burned-bullets": "Molde de balas",
 	"naturalclay:block-toolmold-*-raw-spear": "Molde cru de lanças",
-    "naturalclay:block-toolmold-*-burned-spear": "Molde de lanças"
+    "naturalclay:block-toolmold-*-burned-spear": "Molde de lanças",
 	
+	 "naturalclay:block-saucepan-*-raw" : "Tacho cru",
+    "naturalclay:blockdesc-saucepan-*-raw": "Precisa de um calorzinho.",
+    "naturalclay:block-saucepan-*-burned" : "Tacho",
+    "naturalclay:blockdesc-saucepan-*-burned": "Isto manterá seus líquidos seguros... por um tempo.",
+	"naturalclay:block-cauldronmold-*-raw": "Molde de caldeirão cru",
+    "naturalclay:block-cauldronmold-*-burned": "Molde de caldeirão",
+	"naturalclay:block-cauldronminimold-*-raw": "Molde de de caldeirão pequeno cru",
+  "naturalclay:block-cauldronminimold-*-burned": "Molde de de caldeirão pequeno",
+    "naturalclay:block-spilemold-*-raw": "Molde de bicas cru",
+  "naturalclay:block-spilemold-*-burned": "Molde de bicas",
+  "naturalclay:block-bighookmold-*-raw": "Molde cru de gancho grande",
+  "naturalclay:block-bighookmold-*-burned": "Molde de gancho grande",
+  "naturalclay:block-bottle-*-raw" : "Garrafa crua",
+    "naturalclay:block-bottle-*-burned" : "Garrafa",
+	"naturalclay:blockdesc-bottle-*-raw": "Precisa de um calorzinho.",
+  "naturalclay:blockdesc-bottle-*-burned": "Uma garrafa vazia fica desesperada por um propósito."
+	
+
 }

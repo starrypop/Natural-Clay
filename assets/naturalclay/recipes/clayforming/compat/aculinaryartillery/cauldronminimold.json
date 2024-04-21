@@ -148,6 +148,6 @@
         ],
     ],
   "name": "Mini Cauldron Mold",
-  "output": { "type": "block", "code": "aculinaryartillery:cauldronminimold-raw" },
+  "output": { "type": "block", "code": "naturalclay:cauldronminimold-{color}-raw" },
     "dependsOn": [{ "modid": "aculinaryartillery" }]
 }

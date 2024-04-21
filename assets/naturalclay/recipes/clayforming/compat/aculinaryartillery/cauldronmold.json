@@ -297,6 +297,6 @@
         ]
     ],
   "name": "Cauldron Mold",
-  "output": { "type": "block", "code": "aculinaryartillery:cauldronmold-raw" },
+  "output": { "type": "block", "code": "naturalclay:cauldronmold-{color}-raw" },
     "dependsOn": [{ "modid": "aculinaryartillery" }]
 }
