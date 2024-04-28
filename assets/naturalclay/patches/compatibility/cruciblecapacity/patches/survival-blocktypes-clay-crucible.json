@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/attributesByType/crucible-burned/maxContainerSlotStackSize",
+    "path": "/attributesByType/crucible-*-burned/maxContainerSlotStackSize",
     "file": "naturalclay:blocktypes/clay/crucible.json",
     "condition": {"when": "CrucibleCapacityPerSlot", "useValue": true}
   }

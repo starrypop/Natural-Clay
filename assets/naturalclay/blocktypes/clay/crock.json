@@ -30,7 +30,7 @@
         "*-burned-*": "BlockCrock"
     },
     "entityClassByType": {
-        "crock-burned-*": "Crock"
+        "*-burned-*": "Crock"
     },
     "variantgroups": [
 		{
@@ -69,14 +69,14 @@
         }
     },
     "combustiblePropsByType": {
-        "crock-raw-*": {
+        "*-raw-*": {
             "meltingPoint": 600,
             "meltingDuration": 45,
             "smeltedRatio": 1,
             "smeltingType": "fire",
             "smeltedStack": {
                 "type": "block",
-                "code": "naturalclay:crock-burned-{side}"
+                "code": "naturalclay:crock-{variant}-burned-{side}"
             },
             "requiresContainer": false
         }

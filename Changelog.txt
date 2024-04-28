@@ -25,3 +25,5 @@ v1.0.4
 	* A Culinary Artillery variants
 	* Moved compatibility folders around
 	* Fixed the top of irrigation vessels being the wrong color
+v1.0.5
+	*Fixed some bugs with crocks
