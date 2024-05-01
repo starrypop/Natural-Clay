@@ -116,14 +116,14 @@
         "all": false
     },
     "combustiblePropsByType": {
-        "ingotmold-raw": {
+        "ingotmold-*-raw": {
             "meltingPoint": 650,
             "meltingDuration": 30,
             "smeltedRatio": 1,
             "smeltingType": "fire",
             "smeltedStack": {
                 "type": "block",
-                "code": "ingotmold-{variant}-burned"
+                "code": "naturalclay:ingotmold-{variant}-burned"
             },
             "requiresContainer": false
         }
