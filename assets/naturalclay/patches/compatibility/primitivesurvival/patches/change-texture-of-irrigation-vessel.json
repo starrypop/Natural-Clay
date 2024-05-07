@@ -1,0 +1,9 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*/top/base",
+		"value": "naturalclay:compatibility/primitivesurvival/block/clay/topburned",
+        "file": "primitivesurvival:blocktypes/clay/irrigationvessel.json",
+        "side": "Server"
+    }
+]
