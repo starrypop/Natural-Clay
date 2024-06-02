@@ -1,7 +1,7 @@
 [
     {
         "op": "addmerge",
-        "path": "/enabled",
+        "path": "/0/enabled",
         "value": false,
         "file": "naturalclay:recipes/clayforming/compat/maltiezfirearms/barrelmold.json",
         "side": "Server",
@@ -14,7 +14,7 @@
     },
     {
         "op": "addmerge",
-        "path": "/enabled",
+        "path": "/0/enabled",
         "value": false,
         "file": "naturalclay:recipes/clayforming/compat/maltiezfirearms/bullets.json",
         "side": "Server",
@@ -27,7 +27,7 @@
     },
 	{
         "op": "addmerge",
-        "path": "/enabled",
+        "path": "/0/enabled",
         "value": false,
         "file": "naturalclay:recipes/clayforming/compat/maltiezfirearms/slugs.json",
         "side": "Server",

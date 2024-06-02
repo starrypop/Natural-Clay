@@ -1,7 +1,7 @@
 [
     {
         "op": "addmerge",
-        "path": "/enabled",
+        "path": "/0/enabled",
         "value": false,
         "file": "naturalclay:recipes/clayforming/compat/primitivesurvival/hookmold.json",
         "side": "Server",
@@ -14,7 +14,7 @@
     },
     {
         "op": "addmerge",
-        "path": "/enabled",
+        "path": "/0/enabled",
         "value": false,
         "file": "naturalclay:recipes/clayforming/compat/primitivesurvival/luremold.json",
         "side": "Server",
@@ -27,7 +27,7 @@
     },
 	{
         "op": "addmerge",
-        "path": "/enabled",
+        "path": "/0/enabled",
         "value": false,
         "file": "naturalclay:recipes/clayforming/compat/primitivesurvival/spikesplatemold.json",
         "side": "Server",
