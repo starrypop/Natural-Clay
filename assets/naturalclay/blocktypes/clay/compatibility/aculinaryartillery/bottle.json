@@ -4,6 +4,12 @@
         {
             "code": "color",
             "states": [
+                "clay"
+            ]
+        },
+		{
+            "code": "variant",
+            "states": [
                 "red",
                 "fire",
                 "brown"
@@ -64,8 +70,8 @@
             "capacityLitres": 1,
             "transferSizeLitres": 0.1,
             "emptyShapeLoc": "aculinaryartillery:shapes/block/bottle/bottle",
-            "opaqueContentShapeLoc": "game:shapes/block/basic/nothing",
-            "liquidContentShapeLoc": "game:shapes/block/basic/nothing",
+      "opaqueContentShapeLoc": "aculinaryartillery:shapes/block/bottle/bottle",
+      "liquidContentShapeLoc": "aculinaryartillery:shapes/block/bottle/bottle",
             "liquidMaxYTranslate": 0.05
         }
     },
@@ -159,7 +165,7 @@
             "smeltingType": "fire",
             "smeltedStack": {
                 "type": "block",
-                "code": "bottle-{color}-burned"
+                "code": "bottle-clay-{variant}-burned"
             },
             "requiresContainer": false
         }
@@ -171,9 +177,9 @@
     "blockmaterialByType": {
         "*": "Ceramic"
     },
-    "shape": {
-        "base": "aculinaryartillery:block/bottle/bottle"
-    },
+    "shapeByType": {
+    "*": { "base": "aculinaryartillery:block/bottle/bottle" }
+  },
     "lightAbsorption": 0,
     "sideopaque": {
         "all": false
@@ -187,6 +193,9 @@
     "sidesolid": {
         "all": false
     },
+	"renderpassByType": {
+    "*": "opaque"
+  },
     "collisionbox": {
         "x1": 0.4,
         "y1": 0,
@@ -211,12 +220,12 @@
         },
         "*-raw": {
             "ceramic": {
-                "base": "naturalclay:block/clay/{color}clay"
+                "base": "naturalclay:block/clay/{variant}clay"
             }
         },
-        "*-burned": {
+        "*": {
             "ceramic": {
-                "base": "naturalclay:block/clay/{color}-ceramic"
+                "base": "naturalclay:block/clay/{variant}-ceramic"
             }
         }
     },
