@@ -37,3 +37,7 @@ v1.0.7
 	*Actually fix irrigation vessels being the wrong color
 	*Fixed syntax error in poultice recipes
 	*Fix crock sealing
+
+v1.0.8
+	*Fixed crashes for poultice recipes
+	*Fix certain recipes not being disabled properly if the mod is not present
