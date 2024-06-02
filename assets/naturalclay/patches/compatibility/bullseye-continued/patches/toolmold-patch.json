@@ -7,7 +7,13 @@
             "bullets"
         ],
         "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
-        "side": "Server"
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bullseye-continued",
+                "invert": false
+            }
+        ]
     },
     {
         "op": "addmerge",
@@ -17,19 +23,37 @@
             "rotateY": 90
         },
         "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
-        "side": "Server"
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bullseye-continued",
+                "invert": false
+            }
+        ]
     },
     {
         "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
         "op": "move",
         "frompath": "/shapeByType/*",
-        "path": "/temp"
+        "path": "/temp",
+        "dependsOn": [
+            {
+                "modid": "bullseye-continued",
+                "invert": false
+            }
+        ]
     },
     {
         "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
         "op": "move",
         "frompath": "/temp",
-        "path": "/shapeByType/*"
+        "path": "/shapeByType/*",
+        "dependsOn": [
+            {
+                "modid": "bullseye-continued",
+                "invert": false
+            }
+        ]
     },
     {
         "op": "addmerge",
@@ -50,18 +74,36 @@
             }
         },
         "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
-        "side": "Server"
+        "side": "Server",
+        "dependsOn": [
+            {
+                "modid": "bullseye-continued",
+                "invert": false
+            }
+        ]
     },
     {
         "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
         "op": "move",
         "frompath": "/attributesByType/toolmold-*-burned-*",
-        "path": "/temp"
+        "path": "/temp",
+        "dependsOn": [
+            {
+                "modid": "bullseye-continued",
+                "invert": false
+            }
+        ]
     },
     {
         "file": "naturalclay:blocktypes/clay/mold/toolmold.json",
         "op": "move",
         "frompath": "/temp",
-        "path": "/attributesByType/toolmold-*-burned-*"
+        "path": "/attributesByType/toolmold-*-burned-*",
+        "dependsOn": [
+            {
+                "modid": "bullseye-continued",
+                "invert": false
+            }
+        ]
     }
 ]
