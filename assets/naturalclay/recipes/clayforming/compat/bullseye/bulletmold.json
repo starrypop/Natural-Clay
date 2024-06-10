@@ -4,7 +4,7 @@
         "code": "game:clay-*",
         "name": "color",
         "allowedVariants": [
-            "fire",
+            "blue", "fire",
             "red",
             "brown"
         ]
@@ -48,5 +48,5 @@
         "type": "block",
         "code": "naturalclay:toolmold-{color}-raw-bullets"
     },
-    "enabled": true
+    "dependsOn": [{ "modid": "bullseye-continued" }]
 }

@@ -93,6 +93,7 @@
 	{
 			code: "color",
 			states: [
+				"blue",
 				"fire",
 				"red",
 				"brown"
@@ -208,5 +209,6 @@
 			z: 0.5
 		},
 		scale: 3
-	}
+	},
+  "enabled": false
 }

@@ -4,7 +4,7 @@
         "code": "game:clay-*",
         "name": "color",
         "allowedVariants": [
-            "fire",
+            "blue", "fire",
             "red",
             "brown"
         ]
@@ -47,5 +47,6 @@
     "output": {
         "type": "block",
         "code": "naturalclay:toolmold-{color}-raw-spear"
-    }
+    },
+    "dependsOn": [{ "modid": "bullseye-continued" }]
 }

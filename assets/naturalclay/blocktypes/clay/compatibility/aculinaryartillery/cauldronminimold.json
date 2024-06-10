@@ -9,7 +9,7 @@
     "*": [{ "name": "UnstableFalling" }]
   },
   "variantgroups": [
-  { "code": "color", "states": ["fire", "red", "brown"] },
+  { "code": "color", "states": ["blue","fire", "red", "brown"] },
     { "code": "materialtype", "states": ["raw", "burned"] }
   ],
   "attributesByType": {
@@ -93,5 +93,6 @@
   "groundTransform": {
     "origin": { "x": 0.5, "y": 0, "z": 0.5 },
     "scale": 5
-  }
+  },
+  "enabled": false
 }

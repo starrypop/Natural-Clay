@@ -4,6 +4,7 @@
         "code": "game:clay-*",
         "name": "color",
         "allowedVariants": [
+            "blue",
             "fire",
             "red",
             "brown"
@@ -47,6 +48,10 @@
     "output": {
         "type": "block",
         "code": "naturalclay:bighookmold-{color}-raw",
-    "dependsOn": [{ "modid": "aculinaryartillery" }]
+        "dependsOn": [
+            {
+                "modid": "aculinaryartillery"
+            }
+        ]
     }
 }

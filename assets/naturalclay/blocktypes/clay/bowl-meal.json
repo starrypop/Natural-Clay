@@ -27,6 +27,7 @@
         {
             "code": "variant",
             "states": [
+			"blue",
                 "fire",
                 "red",
                 "brown"

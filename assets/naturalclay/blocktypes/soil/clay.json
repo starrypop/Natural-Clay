@@ -7,7 +7,8 @@
             "code": "type",
             "states": [
                 "red",
-                "brown"
+                "brown",
+				"black"
             ]
         },
         {

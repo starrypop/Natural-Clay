@@ -8,6 +8,7 @@
         {
             "code": "type",
             "states": [
+			"blue",
                 "fire", "red", "brown"
             ]
         },

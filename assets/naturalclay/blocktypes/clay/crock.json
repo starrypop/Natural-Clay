@@ -36,6 +36,7 @@
 		{
             "code": "variant",
             "states": [
+				"blue",
                 "fire",
                 "red",
                 "brown"
@@ -137,7 +138,7 @@
         },
         "*": {
 			"ceramic": {
-                "base": "naturalclay:block/clay/crock/{variant}-ceramic"
+                "base": "naturalclay:block/clay/crock/{variant}"
             },
             "label": {
                 "base": "game:block/clay/crock/label"

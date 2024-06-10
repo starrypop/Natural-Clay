@@ -57,7 +57,7 @@
                 "useFirepitModel": "Wide"
             },
             "mealContainer": true,
-            "dirtiedBlockCode": "game:dirtyclaypot-cooked"
+            "dirtiedBlockCode": "naturalclay:dirtyclaypot-{variant}-cooked"
         },
         "*-cooked": {
             "attachmentArea": {
@@ -475,6 +475,7 @@
         {
             "code": "variant",
             "states": [
+				"blue",
                 "fire",
                 "red",
                 "brown"

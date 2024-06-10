@@ -1,5 +1,5 @@
 {
-	"ingredient": { "type": "item", "code": "game:clay-*", "name": "type", "allowedVariants": ["black"]},
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "type", "allowedVariants": ["red", "brown"]},
 	"pattern": [[
 		"###_###_###_###",
 		"###_###_###_###",
@@ -17,5 +17,5 @@
 		"###_###_###_###",
 	]],
 	"name": "Shingles",
-	"output": { "type": "item", "code": "naturalclay:shingle-raw-{type}", "stacksize": 12   }
+	"output": { "type": "item", "code": "game:shingle-raw-{type}", "stacksize": 12   }
 }

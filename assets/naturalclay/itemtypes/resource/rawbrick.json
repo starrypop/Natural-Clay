@@ -5,8 +5,10 @@
         {
             "code": "type",
             "states": [
+                "black",
                 "red",
-                "brown"
+                "brown",
+                "black"
             ]
         }
     ],
@@ -37,12 +39,22 @@
     "shape": {
         "base": "game:item/brick"
     },
-    "textures": {
-        "material": {
-            "base": "game:block/clay/brickpile/raw/{type}-side"
+    "texturesByType": {
+        "@*-(red|brown)": {
+            "material": {
+                "base": "game:block/clay/brickpile/raw/{type}-side"
+            },
+            "top": {
+                "base": "game:block/clay/brickpile/raw/{type}-top"
+            }
         },
-        "top": {
-            "base": "game:block/clay/brickpile/raw/{type}-top"
+        "*": {
+            "material": {
+                "base": "naturalclay:block/clay/brickpile/raw/{type}-side"
+            },
+            "top": {
+                "base": "naturalclay:block/clay/brickpile/raw/{type}-top"
+            }
         }
     },
     "attributes": {
@@ -65,15 +77,27 @@
             "*"
         ]
     },
-    "combustibleProps": {
-        "meltingPoint": 850,
-        "meltingDuration": 15,
-        "smeltingType": "fire",
-        "smeltedStack": {
-            "type": "item",
-            "code": "game:burnedbrick-{type}"
+    "combustiblePropsByType": {
+        "@*-(red|brown)": {
+            "meltingPoint": 850,
+            "meltingDuration": 15,
+            "smeltingType": "fire",
+            "smeltedStack": {
+                "type": "item",
+                "code": "game:burnedbrick-{type}"
+            },
+            "requiresContainer": false
         },
-        "requiresContainer": false
+		"*": {
+            "meltingPoint": 850,
+            "meltingDuration": 15,
+            "smeltingType": "fire",
+            "smeltedStack": {
+                "type": "item",
+                "code": "naturalclay:burnedbrick-{type}"
+            },
+            "requiresContainer": false
+        }
     },
     "materialDensity": 2600,
     "guiTransform": {

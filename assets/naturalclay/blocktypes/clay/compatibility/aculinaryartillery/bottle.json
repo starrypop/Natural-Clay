@@ -10,6 +10,7 @@
 		{
             "code": "variant",
             "states": [
+			"blue",
                 "red",
                 "fire",
                 "brown"
@@ -276,5 +277,6 @@
             "z": 0.5
         },
         "scale": 0.81
-    }
+    },
+  "enabled": false
 }
