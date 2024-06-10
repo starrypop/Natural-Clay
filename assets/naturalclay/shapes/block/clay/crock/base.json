@@ -6,7 +6,7 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textures": {
-		"ceramic": "block/clay/crock/ceramic"
+		"ceramic": "game:block/clay/crock/ceramic"
 	},
 	"elements": [
 		{
