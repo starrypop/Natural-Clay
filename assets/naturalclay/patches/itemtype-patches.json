@@ -39,7 +39,7 @@
         "op": "addmerge",
         "path": "/texturesByType",
         "value": {
-            "@*-raw-(brown|red)": {
+            "@*-raw-(brown|red|blue)": {
                 "material": {
                     "base": "naturalclay:block/clay/{type}clay"
                 }
@@ -65,7 +65,8 @@
         "path": "/variantgroups/0/states/-",
         "value": [
             "brown",
-            "red"
+            "red",
+			"black"
         ],
         "file": "game:itemtypes/resource/clay.json",
         "side": "Server"
@@ -75,7 +76,8 @@
         "path": "/variantgroups/0/states/-",
         "value": [
             "brown",
-            "red"
+            "red",
+			"black"
         ],
         "file": "game:itemtypes/resource/clayworkitem.json",
         "side": "Server"
@@ -94,6 +96,24 @@
         "path": "/textures/clayworkitem-red",
         "value": {
             "base": "naturalclay:block/clay/redclay"
+        },
+        "file": "game:blocktypes/clay/clayform.json",
+        "side": "Server"
+    },
+	{
+        "op": "add",
+        "path": "/textures/clayworkitem-blue",
+        "value": {
+            "base": "naturalclay:block/clay/blueclay"
+        },
+        "file": "game:blocktypes/clay/clayform.json",
+        "side": "Server"
+    },
+	{
+        "op": "add",
+        "path": "/textures/clayworkitem-black",
+        "value": {
+            "base": "naturalclay:block/clay/blackclay"
         },
         "file": "game:blocktypes/clay/clayform.json",
         "side": "Server"
