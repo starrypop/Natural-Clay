@@ -1,0 +1,41 @@
+[
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "maltiezfirearms:recipes/clayforming/barrelmold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "maltiezfirearms:recipes/clayforming/bullets.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "maltiezfirearms:recipes/clayforming/slugs.json",
+		"value": "black",
+        "side": "Server"
+    },
+	{
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "maltiezfirearms:recipes/clayforming/barrelmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "maltiezfirearms:recipes/clayforming/bullets.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "maltiezfirearms:recipes/clayforming/slugs.json",
+        "side": "Server"
+    }
+]

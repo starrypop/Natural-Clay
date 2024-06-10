@@ -1,5 +1,5 @@
 [{
-	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": ["red", "fire", "brown"] },
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": ["red", "blue", "fire", "brown"] },
 	"pattern": [[
 		"##########",
 		"##########",
@@ -194,7 +194,7 @@
 	]
 	],
 	"name": "Barrel mold",
-	"output": { "type": "block", "code": "maltiezfirearms:barrelmold-raw"  },
+	"output": { "type": "block", "code": "naturalclay:barrelmold-{color}-raw"  },
     "dependsOn": [{ "modid": "maltiezfirearms" }]
 }
 ]

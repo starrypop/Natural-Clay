@@ -1,6 +1,6 @@
 [
 {
-	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": ["red", "fire", "brown"] },
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": ["red", "blue", "fire", "brown"] },
 	"pattern": [[
 		"#############",
 		"#############",
@@ -47,7 +47,7 @@
 		"#############"
 	]],
 	"name": "Firearms bullets mold",
-	"output": { "type": "block", "code": "maltiezfirearms:ammomold-bullet-raw" },
+	"output": { "type": "block", "code": "naturalclay:ammomold-{color}-bullet-raw" },
     "dependsOn": [{ "modid": "maltiezfirearms" }]
 }
 ]

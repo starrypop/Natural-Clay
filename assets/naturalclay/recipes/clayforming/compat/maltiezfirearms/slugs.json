@@ -1,6 +1,6 @@
 [
 {
-	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": ["red", "fire", "brown"] },
+	"ingredient": { "type": "item", "code": "game:clay-*", "name": "color", "allowedVariants": ["red", "blue", "fire", "brown"] },
 	"pattern": [[
 		"#############",
 		"#############",
@@ -47,7 +47,7 @@
 		"#############"
 	]],
 	"name": "Firearms slugs mold",
-	"output": { "type": "block", "code": "maltiezfirearms:ammomold-slug-raw"  },
+	"output": { "type": "block", "code": "naturalclay:ammomold-{color}-slug-raw"  },
     "dependsOn": [{ "modid": "maltiezfirearms" }]
 }
 ]
