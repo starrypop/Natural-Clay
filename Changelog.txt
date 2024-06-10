@@ -41,3 +41,27 @@ v1.0.7
 v1.0.8
 	*Fixed crashes for poultice recipes
 	*Fix certain recipes not being disabled properly if the mod is not present
+	*Fix bottles having broken models when fluid is inside them
+	
+v1.1.0
+-DUE TO SEVERAL CHANGES, IT IS RECCOMENDED YOU BACK UP YOUR WORLD, OR CREATE A NEW ONE-
+	*Added black clay, with the same color as vanilla ceramics
+		*Default ceramic items are now made with black clay
+			*Due to this, all of your blue clay ceramics will turn black
+		*Black clay can be made into bricks, shingles and hardened clay as well
+	*Finally implemented dirty pots
+	*Added clay variants for 
+		*Primitve survival
+		*Ancient Tools
+		*Tailors Delight
+		*Firearms
+		*From Golden Combs
+	*Added Compatibility for
+		*Expanded Foods
+		*Hanging Oil Lamps
+			*OLD OIL LAMPS MAY CRASH THE GAME UPON LOADING, BACK UP YOUR WORLD
+	*Added descriptions to clay variants
+	*Fixed a bug where bottles could no longer be crafted
+		*BOTTLES WILL DISAPPEAR UPON LOADING YOUR WORLD, BACK UP YOUR WORLD
+	*Raw bricks now have lighter textures, to better match the color of other raw clay items
+	*Cleaned up compatibility patches, blocks should no longer appear unless the mod is present

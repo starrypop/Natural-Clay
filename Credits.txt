@@ -1,0 +1,12 @@
+-CREDITS-
+	*Tels and Phiwa - For creating the bricklayers mod, which inspired much of the backbone of this mod
+	*Catasteroid - For creating the More Clay mod, which inspired the concept for this mod
+	*Anego Studios - For creating the game, and much of the assets repurposed and edited to make the mod work
+	*Several mod creators - For their work I used to create the compatibility patches for their mods
+		*Maltiez - Bullseye and Firearms
+		*L33tmaan - A Culinary Artillery and Expanded Foods
+		*Vinter Nacht - From Golden Combs
+		*Taska - Ancient Tools
+		*SpearAndFang - Primitive Survival
+		*Tels & Phiwa - Tailor's Delight
+		*Lodey - Hanging Oil Lamps
