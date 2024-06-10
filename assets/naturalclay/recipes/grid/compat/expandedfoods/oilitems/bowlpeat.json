@@ -1,0 +1,15 @@
+﻿ {
+	ingredientPattern: "P,B",
+	ingredients: {
+		"P": { type: "block", code: "game:peatbrick" },
+		"B": { type: "block", code: "naturalclay:bowl-*-fired", "name": "color"  }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "block", code: "naturalclay:bowl-peat-{color}"  },
+  "dependsOn": [
+            {
+                "modid": "expandedfoods"
+            }
+        ]
+ }
