@@ -1,0 +1,48 @@
+[
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedvariants/1",
+        "file": "fromgoldencombs:recipes/clayforming/hivetop.json",
+		"value": "black",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "fromgoldencombs"
+            }
+			]
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedvariants/1",
+        "file": "fromgoldencombs:recipes/clayforming/rawclaypothive.json",
+		"value": "black",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "fromgoldencombs"
+            }
+			]
+    },
+	{
+        "op": "remove",
+        "path": "/ingredient/allowedvariants/0",
+        "file": "fromgoldencombs:recipes/clayforming/hivetop.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "fromgoldencombs"
+            }
+			]
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedvariants/0",
+        "file": "fromgoldencombs:recipes/clayforming/rawclaypothive.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "fromgoldencombs"
+            }
+			]
+    }
+]

@@ -4,7 +4,7 @@
         "code": "game:clay-*",
         "name": "color",
         "allowedvariants": [
-            "fire",
+            "blue", "fire",
             "red",
             "brown"
         ]
@@ -86,6 +86,7 @@
     "name": "recipe-clayforming-hivetop-raw",
     "output": {
         "type": "block",
-        "code": "fromgoldencombs:hivetop-raw"
-    }
+        "code": "naturalclay:hivetop-{color}-raw"
+    },
+    "dependsOn": [{ "modid": "fromgoldencombs" }]
 }
