@@ -1,0 +1,126 @@
+﻿{
+	code: "pitchpot",
+	renderpass: "OpaqueNoCull",
+	classByType: {
+		"@pitchpot-(blue|fire|red|brown)-(empty|residuecovered)": "BlockPitchContainer",
+		"*-finishedpitchinventory": "BlockPitchInventory",
+		"*-finishedpitch": "BlockPitch"
+	},
+	entityclassByType: {
+		"@pitchpot-(blue|fire|red|brown)-(empty|residuecovered)": "BEPitchContainer",
+		"*-finishedpitch": "BEFinishedPitch"
+	},
+	attributesByType: {
+		"@pitchpot-(blue|fire|red|brown)-(unmixed|unmixedresiduecovered|finishedpitchinventory)": {
+			inFirePitProps: {
+				transform: { 
+					translation: { x: 0, y: 0.125, z: 0 } 
+				},
+				useFirepitModel: "Wide"
+			},
+			handbook: {
+				createdBy: "ancienttools:handbook-mixingpitch-craftinfo"
+			}
+		}
+	},
+	behaviorsByType: {
+		"@pitchpot-(blue|fire|red|brown)-(unmixed|unmixedresiduecovered)": [
+			{ name: "UnstableFalling" }, { name: "RightClickPickup" }
+		],
+		"@pitchpot-(blue|fire|red|brown)-(empty|finishedpitch)": [
+			{ name: "UnstableFalling" }
+		]
+	},
+	variantgroups: [
+	{
+            "code": "variant",
+            "states": [
+			"blue",
+                "fire",
+                "red",
+                "brown"
+            ]
+        },
+		{ code:"type", states: ["empty", "residuecovered", "unmixed", "unmixedresiduecovered", "finishedpitchinventory", "finishedpitch"] },
+	],
+	creativeinventory: { "general": ["pitchpot-*-empty", "pitchpot-*-residuecovered", "pitchpot-*-unmixed", "pitchpot-*-finishedpitchinventory"], 
+	"decorative": ["pitchpot-*-empty", "pitchpot-*-residuecovered", "pitchpot-*-unmixed", "pitchpot-*-finishedpitchinventory"], 
+	"mechanics": ["pitchpot-*-empty", "pitchpot-*-residuecovered", "pitchpot-*-unmixed", "pitchpot-*-finishedpitchinventory"], 
+	"ancienttools": ["pitchpot-*-empty", "pitchpot-*-residuecovered", "pitchpot-*-unmixed", "pitchpot-*-finishedpitchinventory"] },
+	shapeByType: {
+		"@pitchpot-(blue|fire|red|brown)-(empty|residuecovered)": { base: "game:block/clay/pot-opened-empty" },
+		"@pitchpot-(blue|fire|red|brown)-(unmixed|unmixedresiduecovered)": { base: "ancienttools:block/pitch/preparedpitch" },
+		"*-finishedpitchinventory": { base: "ancienttools:block/pitch/finishedpitch" },
+		"*-finishedpitch": { base: "game:block/clay/pot-opened-empty" }
+	},
+	texturesByType: {
+		"*-empty": {
+			ceramic: { base: "naturalclay:block/clay/pot/{variant}-side" }
+		},
+		"*-residuecovered": {
+			"ceramic": { "base": "naturalclay:block/clay/pot/{variant}-ceramic-dirty" }
+		},
+		"*-unmixed": {
+			ceramic: { base: "naturalclay:block/clay/pot/{variant}-side" },
+			resin: { base: "game:block/resin" },
+			drygrass: { base: "game:block/hay/bundle" },
+			string: { base: "game:item/tool/material/string" }
+		},
+		"*-unmixedresiduecovered": {
+			"ceramic": { "base": "naturalclay:block/clay/pot/{variant}-ceramic-dirty" },
+			resin: { base: "game:block/resin" },
+			drygrass: { base: "game:block/hay/bundle" },
+			string: { base: "game:item/tool/material/string" }
+		},
+		"@pitchpot-(blue|fire|red|brown)-(finishedpitch|finishedpitchinventory)": {	
+			ceramic: { base: "naturalclay:block/clay/pot/{variant}-ceramic-dirty" },
+			pitch: { base: "ancienttools:block/pitch/pitch" }
+		}
+	},
+	heldTpIdleAnimation: "holdbothhands",
+	heldTpUseAnimation: "twohandplaceblock",
+	blockmaterial: "Ceramic",
+	combustiblePropsByType: {
+		"@pitchpot-(blue|fire|red|brown)-(unmixed|unmixedresiduecovered)": {
+			meltingPoint: 215,
+			meltingDuration: 60,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "block", code: "pitchpot-{variant}-finishedpitchinventory" },
+			requiresContainer: false
+		}
+	},
+	replaceable: 400,
+	resistance: 1.5,
+	maxStackSize: 1,
+	lightAbsorption: 0,
+	sounds: {
+		walk: "game:walk/stone",
+	},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	collisionbox: { x1: 0.28, y1: 0, z1: 0.28, x2: 0.72, y2: 0.35, z2: 0.72 },
+	selectionbox: { x1: 0.28, y1: 0, z1: 0.28, x2: 0.72, y2: 0.35, z2: 0.72 },
+	guiTransform: {
+		origin: { x: 0.5, y: 0.2, z: 0.5 },
+		scale: 2
+	},
+	groundTransform: {
+		scale: 3
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.25, z: 0.5 },
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -0.67, y: 0.06, z: -0.5 },
+		rotation: { x: -52, y: 20, z: -110 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.76
+	},
+  "enabled": false
+}

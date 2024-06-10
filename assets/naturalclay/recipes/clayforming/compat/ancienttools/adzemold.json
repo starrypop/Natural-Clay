@@ -1,5 +1,5 @@
 ﻿{
-	ingredient: { type: "item", code: "game:clay-*", allowedVariants: ["red", "fire", "brown"] },
+	ingredient: { type: "item", code: "game:clay-*", "name":"color", allowedVariants: ["red", "blue", "fire", "brown"] },
 	pattern: [[
 		"##############",
 		"##############",
@@ -33,6 +33,6 @@
 		"##############",
 	]],
 	name: "Adze Mold",
-	output: { type: "block", code: "ancienttools:toolmoldancienttools-raw-adze"  },
+	output: { type: "block", code: "naturalclay:toolmoldancienttools-{color}-raw-adze"  },
     "dependsOn": [{ "modid": "ancienttools" }]
 }

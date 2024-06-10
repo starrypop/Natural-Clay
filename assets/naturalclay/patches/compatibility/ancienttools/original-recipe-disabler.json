@@ -1,0 +1,71 @@
+[
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+		"value": "black",
+        "file": "ancienttools:recipes/clayforming/adzemold.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "ancienttools"
+            }
+			]
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+		"value": "black",
+        "file": "ancienttools:recipes/clayforming/malletmold.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "ancienttools"
+            }
+			]
+    },
+    {
+        "op": "replace",
+        "path": "/0/ingredient/allowedVariants/0",
+		"value": "black",
+        "file": "ancienttools:recipes/clayforming/wedgesmold.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "ancienttools"
+            }
+			]
+    },
+	{
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "ancienttools:recipes/clayforming/adzemold.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "ancienttools"
+            }
+			]
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "ancienttools:recipes/clayforming/malletmold.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "ancienttools"
+            }
+			]
+    },
+    {
+        "op": "remove",
+        "path": "/0/ingredient/allowedVariants/1",
+        "file": "ancienttools:recipes/clayforming/wedgesmold.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "ancienttools"
+            }
+			]
+    }
+]

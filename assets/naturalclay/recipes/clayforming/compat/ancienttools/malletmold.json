@@ -4,7 +4,7 @@
         "code": "game:clay-*",
         "name": "color",
         "allowedVariants": [
-            "fire",
+            "blue", "fire",
             "red",
             "brown"
         ]
@@ -46,7 +46,7 @@
     "name": "Mallet Mold",
     "output": {
         "type": "block",
-        "code": "ancienttools:toolmoldancienttools-raw-mallet"
+        "code": "naturalclay:toolmoldancienttools-{color}-raw-mallet"
     },
     "dependsOn": [{ "modid": "ancienttools" }]
 }
