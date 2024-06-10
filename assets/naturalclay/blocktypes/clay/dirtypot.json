@@ -5,8 +5,8 @@
 		{ name: "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" } 
 	],
 	classByType: {
-		"dirtyclaypot-empty": "BlockCookingContainer",
-		"dirtyclaypot-cooked": "BlockCookedContainer"
+	"dirtyclaypot-*-empty": "BlockCookingContainer",
+		"dirtyclaypot-*-cooked": "BlockCookedContainer"
 	},
 	heldTpIdleAnimation: "holdbothhands",
 	heldTpUseAnimation: "twohandplaceblock",
@@ -27,33 +27,43 @@
 				useFirepitModel: "Wide"
 			},
 			mealContainer: true,
-			mealBlockCode: "dirtyclaypot-cooked",
-			dirtiedBlockCode: "dirtyclaypot-cooked",
-			emptiedBlockCode: "dirtyclaypot-empty",
+			mealBlockCode: "naturalclay:dirtyclaypot-{variant}-cooked",
+			dirtiedBlockCode: "naturalclay:dirtyclaypot-{variant}-cooked",
+			emptiedBlockCode: "naturalclay:dirtyclaypot-{variant}-empty",
 			isDirtyPot: true
 		}
 	},
 	variantgroups: [
+	{
+            "code": "variant",
+            "states": [
+			"blue",
+                "fire",
+                "red",
+                "brown"
+            ]
+        },
 		{ code:"type", states: ["empty", "cooked"] },
 	],
 	entityclassByType: {
 		"*-cooked": "CookedContainer"
 	},
-	shape: { base: "block/clay/pot-dirty-opened-empty" },
+	shape: { base: "game:block/clay/pot-dirty-opened-empty" },
 	doNotRenderAtLod2: true,
 	blockmaterial: "Ceramic",
-	creativeinventory: { "general": ["dirtyclaypot-empty"], "decorative": ["dirtyclaypot-empty"] },
+	creativeinventory: { "general": ["dirtyclaypot-*-empty"], "decorative": ["dirtyclaypot-*-empty"] },
 	replaceable: 400,
 	resistance: 1.5,
 	maxStackSize: 1,
 	lightAbsorption: 0,
 	texturesByType: {
 		"*": {
-			"transparent": { base: "block/transparent" },
-			"ceramic": { base: "block/clay/pot-side" },
-			"lid-dirty2": { base: "block/clay/lid-dirty" },
-		
-			"liquid": { base: "block/liquid/glue-cold" }
+			"transparent": { base: "game:block/transparent" },
+			"ceramic-dark":{ base: "naturalclayblock/clay/{variant}-ceramic-dark" },
+			"ceramic": { base: "naturalclay:block/clay/pot/{variant}-side" },
+			"lid-dirty2": { base: "naturalclay:block/clay/pot/{variant}-lid-dirty" },
+			"ceramic-dirty2": { base: "naturalclay:block/clay/pot/{variant}-ceramic-dirty" },
+			"liquid": { base: "game:block/liquid/glue-cold" }
 		}
 	},
 	sounds: {
