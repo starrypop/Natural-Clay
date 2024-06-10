@@ -1,0 +1,41 @@
+[
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "primitivesurvival:recipes/clayforming/hookmold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "primitivesurvival:recipes/clayforming/luremold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "primitivesurvival:recipes/clayforming/spikesplatemold.json",
+		"value": "black",
+        "side": "Server"
+    },
+	{
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "primitivesurvival:recipes/clayforming/hookmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "primitivesurvival:recipes/clayforming/luremold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "primitivesurvival:recipes/clayforming/spikesplatemold.json",
+        "side": "Server"
+    }
+]

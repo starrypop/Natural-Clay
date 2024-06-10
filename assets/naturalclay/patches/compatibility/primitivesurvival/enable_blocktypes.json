@@ -1,0 +1,25 @@
+
+[
+    {
+        "op": "remove",
+        "path": "/enabled",
+        "file": "naturalclay:blocktypes/clay/compatibility/primitivesurvival/mold/pslargemold.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/enabled",
+        "file": "naturalclay:blocktypes/clay/compatibility/primitivesurvival/irrigationvessel.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    }
+]

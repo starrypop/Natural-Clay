@@ -1,0 +1,73 @@
+[
+  {
+    "ingredientPattern": "HKV",
+    "enabled": true,
+    "shapeless": false,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      },
+      "K": {
+        "type": "item",
+        "code": "game:chisel-*",
+        "isTool": true
+      },
+      "V": {
+        "type": "block",
+        "code": "naturalclay:storagevessel-*-burned",
+		"allowedVariants": [
+            "red",
+            "fire",
+            "brown"
+        ],
+		"name": "variant",		
+		"attributes": { "type": "normal" },
+        "quantity": 1
+      }
+    },
+    "name": "irrigationvessel-normal",
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "naturalclay:irrigationvessel-{variant}-normal",
+      "quantity": 1
+    },
+    "dependsOn": [{ "modid": "primitivesurvival" }]
+  },
+  {
+    "ingredientPattern": "K,H",
+    "enabled": true,
+    "shapeless": false,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:resin",
+        "quantity": 1
+      },
+      "H": {
+        "type": "block",
+        "code": "naturalclay:irrigationvessel-*-normal",
+		"allowedVariants": [
+            "red",
+            "fire",
+            "brown"
+        ],
+		"name": "variant",	
+        "quantity": 1
+      }
+    },
+    "copyAttributesFrom": "H",
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "naturalclay:storagevessel-{variant}-burned",
+	  "attributes": { "type": "normal" },
+      "quantity": 1
+    },
+    "dependsOn": [{ "modid": "primitivesurvival" }]
+  }
+]

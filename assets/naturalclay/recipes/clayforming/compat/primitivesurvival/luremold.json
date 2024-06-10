@@ -5,7 +5,7 @@
         "name": "color",
         "allowedVariants": [
             "red",
-            "fire",
+            "blue", "fire",
             "brown"
         ]
     },
@@ -46,7 +46,7 @@
     "name": "Lure Mold",
     "output": {
         "type": "block",
-        "code": "primitivesurvival:pslargemold-raw-fishinglure"
+        "code": "naturalclay:pslargemold-{color}-raw-fishinglure"
     },
     "dependsOn": [
         {

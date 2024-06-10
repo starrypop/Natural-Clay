@@ -4,7 +4,7 @@
     "type": "item",
     "code": "game:clay-*",
     "name": "color",
-    "allowedVariants": ["red", "fire", "brown"]
+    "allowedVariants": ["red", "blue", "fire", "brown"]
   },
     "pattern": [
         [
@@ -154,7 +154,7 @@
         ]
     ],
   "name": "Spike Plate Mold",
-  "output": { "type": "block", "code": "primitivesurvival:pslargemold-raw-spikeplate" },
+  "output": { "type": "block", "code": "naturalclay:pslargemold-{color}-raw-spikeplate" },
     "dependsOn": [{ "modid": "primitivesurvival" }]
 }
 ]

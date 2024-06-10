@@ -4,7 +4,7 @@
     "type": "item",
     "code": "game:clay-*",
     "name": "color",
-    "allowedVariants": ["red", "fire", "brown"]
+    "allowedVariants": ["red", "blue", "fire", "brown"]
   },
   "pattern": [
     [
@@ -41,7 +41,7 @@
     ]
   ],
   "name": "Hook Mold",
-  "output": { "type": "block", "code": "primitivesurvival:pslargemold-raw-metalfishinghook" },
+  "output": { "type": "block", "code": "naturalclay:pslargemold-{color}-raw-metalfishinghook" },
     "dependsOn": [{ "modid": "primitivesurvival" }]
 }
 ]
