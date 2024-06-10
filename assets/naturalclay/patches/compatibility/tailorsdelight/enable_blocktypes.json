@@ -1,0 +1,14 @@
+
+[
+    {
+        "op": "remove",
+        "path": "/enabled",
+        "file": "naturalclay:blocktypes/clay/compatibility/tailorsdelight/mold.json",
+        "side": "Server",
+		"dependsOn": [
+            {
+                "modid": "tailorsdelight"
+            }
+        ]
+    }
+]

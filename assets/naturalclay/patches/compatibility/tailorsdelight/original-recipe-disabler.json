@@ -1,0 +1,15 @@
+[
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "tailorsdelight:recipes/clayforming/buttons.json",
+		"value": "black",
+        "side": "Server"
+    },
+	{
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "tailorsdelight:recipes/clayforming/buttons.json",
+        "side": "Server"
+    },
+]
