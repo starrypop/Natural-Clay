@@ -1,0 +1,57 @@
+[
+	{
+		ingredientPattern: "__H,_H_,H__",
+		ingredients: {
+			"H": { type: "item", code: "shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "slantedroofing-{material}clay-east-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "_H_,H_H",
+		ingredients: {
+			"H": { type: "item", code: "shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "slantedroofingridge-{material}clay-ns-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "HS",
+		ingredients: {
+			"H": { type: "block", code: "clayshinglestairs-*-up-north-free", name: "material" },
+			"S": { type: "item", code: "shingle-burned-*", name: "material" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "slantedroofing-{material}clay-east-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "_H_,HHH",
+		ingredients: {
+			"H": { type: "item", code: "shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "slantedroofingtip-{material}clay-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "_H,H_,_H",
+		ingredients: {
+			"H": { type: "item", code: "shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "slantedroofingcornerinner-{material}clay-east-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "_H,HH",
+		ingredients: {
+			"H": { type: "item", code: "shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "slantedroofingcornerouter-{material}clay-east-free", quantity: 2  }
+	}
+]

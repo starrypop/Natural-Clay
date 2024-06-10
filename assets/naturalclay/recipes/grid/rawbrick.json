@@ -1,7 +1,7 @@
 {
 	ingredientPattern: "DD	DD",
 	ingredients: {
-		"D": { type: "item", code: "game:clay-*", name: "type", allowedVariants: ["red", "brown"] },
+		"D": { type: "item", code: "game:clay-*", name: "type", allowedVariants: ["red", "brown", "black"] },
 	},
 	width: 2,
 	height: 2,

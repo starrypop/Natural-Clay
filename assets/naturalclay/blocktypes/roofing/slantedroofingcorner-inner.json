@@ -1,0 +1,63 @@
+{
+	code: "slantedroofingcornerinner",
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "east" }}],
+	variantgroups: [
+		{ code: "material", states: ["blackclay"] },
+		{ loadFromProperties: "abstract/horizontalorientation" },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		mapColorCode: "settlement",
+	},
+	shapeByType: { 
+		"@.*-(black)clay-north-.*": { base: "game:block/roofing/cornerinner/shingles-clay-{cover}", rotateY: 90 },
+		"@.*-(black)clay-west-.*": { base: "game:block/roofing/cornerinner/shingles-clay-{cover}", rotateY: 180 },
+		"@.*-(black)clay-south-.*": { base: "game:block/roofing/cornerinner/shingles-clay-{cover}", rotateY: 270 },
+		"@.*-(black)clay-east-.*": { base: "game:block/roofing/cornerinner/shingles-clay-{cover}", rotateY: 0 }
+	},
+	texturesByType: {
+		"*-blackclay-*": {
+			"material": { base: "naturalclay:block/clay/shingles/black" }
+		}
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolidByType: {
+		"*-north-*": {"north": true, "south": false, "east": true, "west": false, "up": false, "down": true },
+		"*-south-*": {"north": false, "south": true, "east": false, "west": true, "up": false, "down": true },
+		"*-east-*": {"north": false, "south": true, "east": true, "west": false, "up": false, "down": true },
+		"*-west-*": {"north": true, "south": false, "east": false, "west": true, "up": false, "down": true }
+	},
+	sideopaque: { all: false },
+	blockmaterialByType: {
+		"*-blackclay-*": "Ceramic"
+	},
+	creativeinventory: { "general": ["*-east-free"], "decorative": ["*-east-free"] },
+	replaceable: 300,
+	resistance: 2,
+	lightAbsorption: 99,
+	emitSideAo: {
+		all: true
+	},
+	sideAoByType: { "*-sod-*": { all: false } },
+	collisionSelectionBoxesByType: {
+		"*-north-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 1, rotateY: 90 }, { x1: 0.625, y1: 0.5625, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 90 }, { x1: 0, y1: 0.5625, z1: 0.625, x2: 1, y2: 1, z2: 1, rotateY: 90 } ],
+		"*-west-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 1, rotateY: 180 }, { x1: 0.625, y1: 0.5625, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 180 }, { x1: 0, y1: 0.5625, z1: 0.625, x2: 1, y2: 1, z2: 1, rotateY: 180 } ],
+		"*-south-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 1, rotateY: 270 }, { x1: 0.625, y1: 0.5625, z1: 0, x2: 1, y2: 1, z2: 1, rotateY: 270 }, { x1: 0, y1: 0.5625, z1: 0.625, x2: 1, y2: 1, z2: 1, rotateY: 270 } ],
+		"*-east-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 1 }, { x1: 0.625, y1: 0.5625, z1: 0, x2: 1, y2: 1, z2: 1 }, { x1: 0, y1: 0.5625, z1: 0.625, x2: 1, y2: 1, z2: 1 } ]
+	},
+	soundsByType: {
+		"*-blackclay-*": {
+			walk: "game:walk/stone",
+			place: "game:block/ceramicplace"
+		}
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.53, y: 0.55, z: 0.46 },
+			scale: 0.85
+		}
+	}
+}
