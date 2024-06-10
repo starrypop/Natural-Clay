@@ -1,36 +1,55 @@
 {
-	ingredient: { type: "item", code: "game:clay-*", name: "color", allowedVariants: ["fire", "red", "brown"] },
-	pattern: [[
-		"###",
-		"###",
-		"###",
-	],
-	[
-		"###",
-		"#_#",
-		"###",
-	],
-	[
-		"###",
-		"#_#",
-		"###",
-	],
-	[
-		"###",
-		"#_#",
-		"###",
-	],
-	[
-		"___",
-		"_#_",
-		"___",
-	],
-	[
-		"___",
-		"_#_",
-		"___",
-	]],
-	name: "bottle",
-	output: { type: "block", code: "naturalclay:bottle-{color}-raw" },
-    "dependsOn": [{ "modid": "aculinaryartillery" }]
+    "ingredient": {
+        "type": "item",
+        "code": "game:clay-*",
+        "name": "variant",
+        "allowedVariants": [
+            "blue",
+            "fire",
+            "red",
+            "brown"
+        ]
+    },
+    "pattern": [
+        [
+            "###",
+            "###",
+            "###"
+        ],
+        [
+            "###",
+            "#_#",
+            "###"
+        ],
+        [
+            "###",
+            "#_#",
+            "###"
+        ],
+        [
+            "###",
+            "#_#",
+            "###"
+        ],
+        [
+            "___",
+            "_#_",
+            "___"
+        ],
+        [
+            "___",
+            "_#_",
+            "___"
+        ]
+    ],
+    "name": "bottle",
+    "output": {
+        "type": "block",
+        "code": "naturalclay:bottle-clay-{variant}-raw"
+    },
+    "dependsOn": [
+        {
+            "modid": "aculinaryartillery"
+        }
+    ]
 }

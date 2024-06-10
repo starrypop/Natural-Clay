@@ -1,5 +1,5 @@
 {
-	ingredient: { type: "item", code: "game:clay-*", name: "color", allowedVariants: ["fire", "red", "brown"] },
+	ingredient: { type: "item", code: "game:clay-*", name: "variant", allowedVariants: ["blue", "fire", "red", "brown"] },
 	pattern: [[
 		"###_###_",
 		"###_###_",
@@ -61,6 +61,6 @@
 		"________",
 	]],
 	name: "bottle",
-	output: { type: "block", code: "naturalclay:bottle-{color}-raw", quantity: 4 },
+	output: { type: "block", code: "naturalclay:bottle-clay-{variant}-raw", quantity: 4 },
     "dependsOn": [{ "modid": "aculinaryartillery" }]
 }

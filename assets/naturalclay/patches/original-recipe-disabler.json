@@ -1,0 +1,340 @@
+[
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/anvilmold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/axemold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/blade-falxmold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/bowl.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/clayplanter.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/claypot.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/crock.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/crucible.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/flowerpot.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/fourbowls.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/fourclaypots.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/fourcrock.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/fourcrucible.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/fourflowerpot.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/hammermold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/helvehammer.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/hoemold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/ingotmold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/jug.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/lamellaemold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/pickaxemold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/propickmold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/shovelmold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/storagevessel.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/twoingotmold.json",
+		"value": "black",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/ingredient/allowedVariants/0",
+        "file": "game:recipes/clayforming/wateringcan.json",
+		"value": "black",
+        "side": "Server"
+    },
+	{
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/anvilmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/axemold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/blade-falxmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/bowl.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/clayplanter.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/claypot.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/crock.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/crucible.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/flowerpot.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/fourbowls.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/fourclaypots.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/fourcrock.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/fourcrucible.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/fourflowerpot.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/hammermold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/helvehammer.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/hoemold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/ingotmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/jug.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/lamellaemold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/pickaxemold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/propickmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/shovelmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/storagevessel.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/twoingotmold.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/ingredient/allowedVariants/1",
+        "file": "game:recipes/clayforming/wateringcan.json",
+        "side": "Server"
+    }
+]
